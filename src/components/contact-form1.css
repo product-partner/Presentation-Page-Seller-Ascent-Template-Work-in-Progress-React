@@ -1,0 +1,118 @@
+.contact-form1-contact1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact-form1-max-width {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contact-form1-container1 {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+ 
+.contact-form1-section-title {
+  align-self: flex-start;
+}
+ 
+.contact-form1-text1 {
+  align-self: center;
+}
+ 
+.contact-form1-container2 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.contact-form1-input1 {
+  width: 100%;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+ 
+.contact-form1-text-input1 {
+  flex: 1;
+}
+ 
+.contact-form1-input2 {
+  width: 100%;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+ 
+.contact-form1-text-input2 {
+  flex: 1;
+}
+ 
+.contact-form1-checkbox1 {
+  align-self: flex-start;
+}
+ 
+.contact-form1-cta-btn {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 700;
+  line-height: 1.55;
+  padding-top: var(--dl-layout-space-unit);
+  padding-left: var(--dl-layout-space-fiveunits);
+  border-radius: 34px;
+  padding-right: var(--dl-layout-space-fiveunits);
+  padding-bottom: var(--dl-layout-space-unit);
+  text-transform: capitalize;
+  text-decoration: none;
+  background-color: var(--dl-color-primary-100);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+ 
+.contact-form1-text5 {
+  display: inline-block;
+}
+ 
+.contact-form1-text6 {
+  display: inline-block;
+}
+ 
+.contact-form1-text7 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .contact-form1-input1 {
+    align-items: center;
+    flex-direction: row;
+  }
+  .contact-form1-input2 {
+    align-items: center;
+    flex-direction: row;
+  }
+  .contact-form1-checkbox1 {
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .contact-form1-cta-btn {
+    display: none;
+    font-size: 16px;
+    padding-left: var(--dl-layout-space-doubleunit);
+    padding-right: var(--dl-layout-space-doubleunit);
+  }
+}
