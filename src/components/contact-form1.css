@@ -6,6 +6,7 @@
 }
  
 .contact-form1-max-width {
+  width: 629px;
   display: flex;
   align-self: center;
   align-items: flex-start;
@@ -14,12 +15,13 @@
  
 .contact-form1-container1 {
   display: flex;
+  align-self: center;
   align-items: stretch;
   flex-direction: column;
 }
  
 .contact-form1-section-title {
-  align-self: flex-start;
+  align-self: center;
 }
  
 .contact-form1-text1 {
@@ -86,6 +88,7 @@
  
 .contact-form1-text6 {
   display: inline-block;
+  font-family: "Inter";
 }
  
 .contact-form1-text7 {

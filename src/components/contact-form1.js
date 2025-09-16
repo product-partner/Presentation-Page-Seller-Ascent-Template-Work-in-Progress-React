@@ -21,23 +21,17 @@ const ContactForm1 = (props) => {
               {props.content1 ?? (
                 <Fragment>
                   <span className="contact-form1-text5 Section-Text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
+                    Share your name and we&apos;ll follow up with you!
                   </span>
                 </Fragment>
               )}
             </span>
           </div>
           <form
-            enctype="application/x-www-form-urlencoded"
+            enctype="text/plain"
             method="POST"
             action="https://api.sellerascent.ai/contact/"
             name="contact_form"
-            target="self"
             id="contact_form"
             className="thq-card"
           >
