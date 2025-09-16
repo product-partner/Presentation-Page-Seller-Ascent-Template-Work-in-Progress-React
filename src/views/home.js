@@ -21,24 +21,20 @@ const Home = (props) => {
       <div data-role="Header" className="home-navbar-container">
         <div className="home-navbar">
           <div className="home-logo">
-            <a href="https://www.sellerascent.ai" className="home-link1">
-              <div className="home-container2">
-                <img
-                  alt="image"
-                  src="/seller%20assent%20logo%20with%20wb.svg"
-                  className="home-image1"
-                />
-              </div>
-            </a>
+            <img
+              alt="image"
+              src="/external/seller%20assent%20logo%20with%20wb.svg"
+              className="home-image1"
+            />
           </div>
           <div className="home-links-container1">
-            <a href="#features" className="home-link2 Anchor">
+            <a href="#features" className="home-link1 Anchor">
               features
             </a>
-            <a href="#about-us" className="home-link3 Anchor">
+            <a href="#about-us" className="home-link2 Anchor">
               About Us
             </a>
-            <span className="home-link4 Anchor">contact</span>
+            <span className="home-link3 Anchor">contact</span>
           </div>
           <div className="home-cta-container">
             <a href="#contact-form-1-name" className="home-cta-btn1 button">
@@ -57,7 +53,7 @@ const Home = (props) => {
                 src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                 className="home-image2"
               />
-              <div data-role="CloseMobileMenu" className="home-container3">
+              <div data-role="CloseMobileMenu" className="home-container2">
                 <svg viewBox="0 0 1024 1024" className="home-icon12">
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                 </svg>
@@ -65,16 +61,16 @@ const Home = (props) => {
             </div>
             <div className="home-mid">
               <div className="home-links-container2">
-                <a href="#features" className="home-link5 Anchor">
+                <a href="#features" className="home-link4 Anchor">
                   features
                 </a>
-                <a href="#services" className="home-link6 Anchor">
+                <a href="#services" className="home-link5 Anchor">
                   services
                 </a>
-                <a href="#about-us" className="home-link7 Anchor">
+                <a href="#about-us" className="home-link6 Anchor">
                   About Us
                 </a>
-                <span className="home-link8 Anchor">contact</span>
+                <span className="home-link7 Anchor">contact</span>
               </div>
               <button className="home-cta-btn2 Anchor button">
                 sTART BUILDING
@@ -140,7 +136,7 @@ const Home = (props) => {
         </div>
         <div className="home-cards-container">
           <div className="home-feature-card1">
-            <div className="home-container4">
+            <div className="home-container3">
               <img
                 alt="image"
                 src="/little%20box%20against%20big%20boxes-300w.png"
@@ -155,7 +151,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-feature-card2">
-            <div className="home-container5">
+            <div className="home-container4">
               <img
                 alt="image"
                 src="/futuristic%20knob-300w.png"

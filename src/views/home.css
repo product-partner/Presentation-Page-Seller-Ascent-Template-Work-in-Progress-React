@@ -41,26 +41,9 @@
   justify-content: center;
 }
  
-.home-link1 {
-  display: contents;
-}
- 
-.home-container2 {
-  width: 381px;
-  height: 78px;
-  display: flex;
-  align-items: center;
-  padding-left: 2px;
-  padding-right: var(--dl-layout-space-doubleunit);
-  background-size: cover;
-  justify-content: center;
-  background-image: url('https://play.teleporthq.io/static/svg/placeholders/no-image.svg');
-  background-position: center;
-}
- 
 .home-image1 {
-  width: 676px;
-  height: 100%;
+  width: 643px;
+  height: 126px;
   object-fit: cover;
 }
  
@@ -70,17 +53,17 @@
   flex-direction: row;
 }
  
+.home-link1 {
+  margin-right: var(--dl-layout-space-tripleunit);
+  text-decoration: none;
+}
+ 
 .home-link2 {
   margin-right: var(--dl-layout-space-tripleunit);
   text-decoration: none;
 }
  
 .home-link3 {
-  margin-right: var(--dl-layout-space-tripleunit);
-  text-decoration: none;
-}
- 
-.home-link4 {
   text-decoration: none;
 }
  
@@ -151,7 +134,7 @@
   object-fit: cover;
 }
  
-.home-container3 {
+.home-container2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
@@ -178,6 +161,11 @@
   flex-direction: column;
 }
  
+.home-link4 {
+  margin-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+}
+ 
 .home-link5 {
   margin-bottom: var(--dl-layout-space-unit);
   text-decoration: none;
@@ -189,11 +177,6 @@
 }
  
 .home-link7 {
-  margin-bottom: var(--dl-layout-space-unit);
-  text-decoration: none;
-}
- 
-.home-link8 {
   text-decoration: none;
 }
  
@@ -384,7 +367,7 @@
   padding-bottom: var(--dl-layout-space-doubleunit);
 }
  
-.home-container4 {
+.home-container3 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -419,7 +402,7 @@
   padding-bottom: var(--dl-layout-space-doubleunit);
 }
  
-.home-container5 {
+.home-container4 {
   flex: 0 0 auto;
   width: auto;
   height: auto;

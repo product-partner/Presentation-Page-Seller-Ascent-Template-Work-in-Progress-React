@@ -32,7 +32,12 @@ const ContactForm1 = (props) => {
               )}
             </span>
           </div>
-          <form className="thq-card">
+          <form
+            enctype="application/x-www-form-urlencoded"
+            method="POST"
+            action="https://api.sellerascent.ai/v1/signup"
+            className="thq-card"
+          >
             <div className="contact-form1-container2">
               <div className="contact-form1-input1 thq-flex-row">
                 <input
