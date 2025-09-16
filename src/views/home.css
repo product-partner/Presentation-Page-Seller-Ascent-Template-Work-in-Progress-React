@@ -809,6 +809,11 @@
 }
  
 @media(max-width: 767px) {
+  .home-image1 {
+    width: 476px;
+    height: 82px;
+    padding-right: var(--dl-layout-space-fourunits);
+  }
   .home-links-container1 {
     display: none;
   }
@@ -873,6 +878,10 @@
 }
  
 @media(max-width: 479px) {
+  .home-image1 {
+    width: 409px;
+    height: 76px;
+  }
   .home-cta-btn1 {
     display: none;
     font-size: 16px;
