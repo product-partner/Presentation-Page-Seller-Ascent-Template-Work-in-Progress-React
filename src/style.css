@@ -516,6 +516,10 @@
   transform: scaleX(1);
 }
  
+.hidden {
+  align-self: flex-start;
+}
+ 
 .Section-Text {
   font-size: 18px;
   font-family: "Inter";
@@ -586,6 +590,11 @@
 @media(max-width: 991px) {
   .thq-grid-4 {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .hidden {
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
   }
 }
  

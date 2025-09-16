@@ -35,7 +35,10 @@ const ContactForm1 = (props) => {
           <form
             enctype="application/x-www-form-urlencoded"
             method="POST"
-            action="https://api.sellerascent.ai/v1/signup"
+            action="https://api.sellerascent.ai/contact/"
+            name="contact_form"
+            target="self"
+            id="contact_form"
             className="thq-card"
           >
             <div className="contact-form1-container2">
@@ -44,6 +47,7 @@ const ContactForm1 = (props) => {
                   type="text"
                   id="contact-form-1-name"
                   placeholder="Name"
+                  name="name"
                   className="contact-form1-text-input1 thq-input"
                 />
               </div>
@@ -53,6 +57,7 @@ const ContactForm1 = (props) => {
                   id="contact-form-1-email"
                   required="true"
                   placeholder="Email"
+                  name="email"
                   className="contact-form1-text-input2 thq-input"
                 />
               </div>

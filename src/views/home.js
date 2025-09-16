@@ -23,7 +23,7 @@ const Home = (props) => {
           <div className="home-logo">
             <img
               alt="image"
-              src="/external/seller%20assent%20logo%20with%20wb.svg"
+              src="/seller%20assent%20logo%20with%20wb.svg"
               className="home-image1"
             />
           </div>
