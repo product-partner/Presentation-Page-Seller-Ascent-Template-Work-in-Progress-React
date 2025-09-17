@@ -30,7 +30,7 @@ const ContactForm1 = (props) => {
           <form
             enctype="text/plain"
             method="POST"
-            action="https://api.sellerascent.ai/contact/"
+            action="https://api.sellerascent.ai/api/contact/"
             name="contact_form"
             id="contact_form"
             className="thq-card"
