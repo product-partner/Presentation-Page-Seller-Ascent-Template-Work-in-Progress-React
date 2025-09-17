@@ -20,12 +20,17 @@ const Home = (props) => {
       </Helmet>
       <div data-role="Header" className="home-navbar-container">
         <div className="home-navbar">
-          <div className="home-logo">
-            <img
-              alt="image"
-              src="/seller%20assent%20logo%20with%20wb.svg"
-              className="home-image1"
-            />
+          <div className="home-container2">
+            <div className="home-logo">
+              <img
+                alt="image"
+                src="/seller%20assent%20logo%20with%20wb.svg"
+                className="home-image1"
+              />
+              <span className="home-text10">
+                a product of Product Partner AI Inc
+              </span>
+            </div>
           </div>
           <div className="home-links-container1">
             <a href="#features" className="home-link1 Anchor">
@@ -53,7 +58,7 @@ const Home = (props) => {
                 src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                 className="home-image2"
               />
-              <div data-role="CloseMobileMenu" className="home-container2">
+              <div data-role="CloseMobileMenu" className="home-container3">
                 <svg viewBox="0 0 1024 1024" className="home-icon12">
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                 </svg>
@@ -104,7 +109,7 @@ const Home = (props) => {
       <div className="home-hero">
         <div className="home-hero-text-container">
           <h1 className="home-heading1">Level the playing field.  </h1>
-          <span className="home-text10">
+          <span className="home-text11">
             Seller Ascent simplifies Amazon’s complexity with AI that protects
             your margins, optimizes your ads, and safeguards your
             products.  Smart automation that makes small sellers mighty.
@@ -127,7 +132,7 @@ const Home = (props) => {
           <h2 className="home-heading2 Section-Heading">
             Built for the small seller
           </h2>
-          <span className="home-text11">
+          <span className="home-text12">
             Small sellers fuel Amazon’s marketplace, but they don’t have the
             time, teams, or tools that larger brands use. We give them invisible
             intelligence—automation that protects margins, grows sales, and
@@ -136,7 +141,7 @@ const Home = (props) => {
         </div>
         <div className="home-cards-container">
           <div className="home-feature-card1">
-            <div className="home-container3">
+            <div className="home-container4">
               <img
                 alt="image"
                 src="/little%20box%20against%20big%20boxes-300w.png"
@@ -144,14 +149,14 @@ const Home = (props) => {
               />
             </div>
             <span className="home-heading3 Card-Heading">Why</span>
-            <span className="home-text12">
+            <span className="home-text13">
               Small Amazon sellers don’t have the time or expertise to manage
               complex ad tools. They’re builders, not ad managers. Without help,
               they lose sales or margin.
             </span>
           </div>
           <div className="home-feature-card2">
-            <div className="home-container4">
+            <div className="home-container5">
               <img
                 alt="image"
                 src="/futuristic%20knob-300w.png"
@@ -159,7 +164,7 @@ const Home = (props) => {
               />
             </div>
             <span className="home-heading4 Card-Heading">What</span>
-            <span className="home-text13">
+            <span className="home-text14">
               <span>
                 ASIN Lift is an AI automation tool. It takes your goals—sales,
                 profit, budget—and transforms them into optimized ad campaigns
@@ -178,7 +183,7 @@ const Home = (props) => {
               className="home-image7"
             />
             <span className="home-heading5 Card-Heading">How</span>
-            <span className="home-text16">
+            <span className="home-text17">
               Behind the scenes, AI constantly analyzes data, optimizes bids,
               protects margins, and even defends against competitors. You set
               the guardrails. The AI does the work.
@@ -189,8 +194,8 @@ const Home = (props) => {
       <div id="services" className="home-services">
         <div className="home-service-card1">
           <div className="home-card-content1">
-            <h3 className="home-text17 BigCard-Heading">Service name</h3>
-            <span className="home-text18 Card-Text">
+            <h3 className="home-text18 BigCard-Heading">Service name</h3>
+            <span className="home-text19 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -204,8 +209,8 @@ const Home = (props) => {
         </div>
         <div className="home-service-card2">
           <div className="home-card-content2">
-            <h3 className="home-text19 BigCard-Heading">Service name</h3>
-            <span className="home-text20 Card-Text">
+            <h3 className="home-text20 BigCard-Heading">Service name</h3>
+            <span className="home-text21 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -219,8 +224,8 @@ const Home = (props) => {
         </div>
         <div className="home-service-card3">
           <div className="home-card-content3">
-            <h3 className="home-text21 BigCard-Heading">Service name</h3>
-            <span className="home-text22 Card-Text">
+            <h3 className="home-text22 BigCard-Heading">Service name</h3>
+            <span className="home-text23 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -234,8 +239,8 @@ const Home = (props) => {
         </div>
         <div className="home-service-card4">
           <div className="home-card-content4">
-            <h3 className="home-text23 BigCard-Heading">Service name</h3>
-            <span className="home-text24 Card-Text">
+            <h3 className="home-text24 BigCard-Heading">Service name</h3>
+            <span className="home-text25 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -250,12 +255,12 @@ const Home = (props) => {
       </div>
       <div id="about-us" className="home-about-us">
         <div className="home-heading-container2">
-          <h2 className="home-text25 Section-Heading">
+          <h2 className="home-text26 Section-Heading">
             Why we built Seller Ascent
           </h2>
         </div>
         <div className="home-text-container">
-          <span className="home-text26">
+          <span className="home-text27">
             Amazon has become the world’s largest storefront, but behind its
             scale are millions of small sellers — the makers, families, and
             one-product brands who keep the marketplace alive. Most of them have
@@ -270,7 +275,7 @@ const Home = (props) => {
               }}
             />
           </span>
-          <span className="home-text27">
+          <span className="home-text28">
             {' '}
             We believe tools should serve the creator, not the other way around.
             That’s why Seller Ascent is priced simply, works seamlessly, and
@@ -287,12 +292,12 @@ const Home = (props) => {
         <ContactForm1
           ctaBtn={
             <Fragment>
-              <span className="home-text28">SUBMIT</span>
+              <span className="home-text29">SUBMIT</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="home-text29 Section-Text">
+              <span className="home-text30 Section-Text">
                 Join the list to hear what’s next and get early access before
                 anyone else.
               </span>
@@ -300,7 +305,7 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text30">Stay in the loop</span>
+              <span className="home-text31">Stay in the loop</span>
             </Fragment>
           }
         ></ContactForm1>
@@ -310,42 +315,42 @@ const Home = (props) => {
       <Footer4
         link1={
           <Fragment>
-            <span className="home-text31">About Us</span>
+            <span className="home-text32">About Us</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="home-text32">Services</span>
+            <span className="home-text33">Services</span>
           </Fragment>
         }
         link3={
           <Fragment>
-            <span className="home-text33">Contact Us</span>
+            <span className="home-text34">Contact Us</span>
           </Fragment>
         }
         link4={
           <Fragment>
-            <span className="home-text34">FAQs</span>
+            <span className="home-text35">FAQs</span>
           </Fragment>
         }
         link5={
           <Fragment>
-            <span className="home-text35">Blog</span>
+            <span className="home-text36">Blog</span>
           </Fragment>
         }
         termsLink={
           <Fragment>
-            <span className="home-text36">Terms of Service</span>
+            <span className="home-text37">Terms of Service</span>
           </Fragment>
         }
         cookiesLink={
           <Fragment>
-            <span className="home-text37">Cookies Policy</span>
+            <span className="home-text38">Cookies Policy</span>
           </Fragment>
         }
         privacyLink={
           <Fragment>
-            <span className="home-text38">Privacy Policy</span>
+            <span className="home-text39">Privacy Policy</span>
           </Fragment>
         }
       ></Footer4>

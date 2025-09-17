@@ -82,7 +82,10 @@ const Footer4 = (props) => {
           <div className="thq-divider-horizontal"></div>
           <div className="footer4-row">
             <div className="footer4-container">
-              <span className="thq-body-small">© 2025 Seller Ascent AI</span>
+              <span className="footer4-text10 thq-body-small">
+                © 2025 Seller Ascent AI            ASINLift and Seller Ascent AI
+                are trademarks of Product Parter AI Inc, 2025
+              </span>
             </div>
             <div className="footer4-footer-links">
               <span className="footer4-text11 thq-body-small">
