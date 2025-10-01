@@ -61,11 +61,50 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
-    <style>
-      html {
-      scroll-behavior: smooth;
-      }
-    </style>
+    <!-- Project Settings → Custom code → BODY (or a Code Embed) -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+        const form = document.getElementById('contact_form');
+        if (!form) return;
+
+        // Optional: element to show messages
+        const msg = document.createElement('div');
+        msg.setAttribute('role', 'status');
+        form.after(msg);
+
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();               // stop the default page navigation
+
+          const submit =
+            form.querySelector('button[type="submit"], input[type="submit"]');
+          if (submit) submit.disabled = true;
+
+          try {
+            const formData = new FormData(form);
+            const body = new URLSearchParams(formData); // -> x-www-form-urlencoded
+
+            const res = await fetch(form.action, {
+              method: (form.method || 'POST').toUpperCase(),
+              headers: { 'Accept': 'application/json',
+                         'Content-Type': 'application/x-www-form-urlencoded' },
+              body
+            });
+
+            if (!res.ok) throw new Error('Request failed: ' + res.status);
+            // If your API returns JSON, you can read it with: const data = await res.json();
+
+            // Success UX: clear/replace the form
+            form.reset();
+            msg.textContent = "Thanks! We’ll be in touch shortly.";
+          } catch (err) {
+            console.error(err);
+            msg.textContent = "Sorry—something went wrong. Please try again.";
+          } finally {
+            if (submit) submit.disabled = false;
+          }
+        });
+      });
+    </script>
   </head>
   <body>
     <div id="app"></div>

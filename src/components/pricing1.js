@@ -127,11 +127,11 @@ Pricing1.defaultProps = {
   plan1Feature1: undefined,
   plan1Feature4: undefined,
   plan1Feature3: undefined,
+  rootClassName: '',
   content2: undefined,
   plan1Price: undefined,
   heading1: undefined,
   plan1Feature2: undefined,
-  rootClassName: '',
 }
 
 Pricing1.propTypes = {
@@ -139,11 +139,11 @@ Pricing1.propTypes = {
   plan1Feature1: PropTypes.element,
   plan1Feature4: PropTypes.element,
   plan1Feature3: PropTypes.element,
+  rootClassName: PropTypes.string,
   content2: PropTypes.element,
   plan1Price: PropTypes.element,
   heading1: PropTypes.element,
   plan1Feature2: PropTypes.element,
-  rootClassName: PropTypes.string,
 }
 
 export default Pricing1
