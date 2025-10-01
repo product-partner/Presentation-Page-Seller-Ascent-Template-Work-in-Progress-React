@@ -51,10 +51,14 @@
   max-width: 560px;
   align-items: center;
   flex-shrink: 0;
+  padding-top: var(--dl-layout-space-doubleunit);
   border-color: var(--dl-color-theme-neutral-dark);
   border-style: solid;
   border-width: 1px;
+  padding-left: var(--dl-layout-space-doubleunit);
+  padding-right: var(--dl-layout-space-doubleunit);
   flex-direction: column;
+  padding-bottom: var(--dl-layout-space-doubleunit);
 }
  
 .pricing1-price {
@@ -66,6 +70,7 @@
  
 .pricing1-text12 {
   font-style: normal;
+  font-family: "Inter";
   font-weight: 600;
 }
  
@@ -115,15 +120,13 @@
   flex-shrink: 0;
 }
  
-.pricing1-button {
-  width: 100%;
-  font-size: 18px;
-  font-family: "Inter";
-  background-color: #01653d;
+.pricing1-text18 {
+  display: inline-block;
 }
  
 .pricing1-text19 {
   display: inline-block;
+  font-family: "Inter";
 }
  
 .pricing1-text20 {
@@ -133,28 +136,24 @@
  
 .pricing1-text21 {
   display: inline-block;
-  font-size: 26px;
-  font-style: normal;
   font-family: "Inter";
-  font-weight: 700;
-  text-transform: capitalize;
 }
  
 .pricing1-text22 {
   display: inline-block;
-  font-family: "Inter";
 }
  
 .pricing1-text23 {
+  font-family: "Inter";
+}
+ 
+.pricing1-text25 {
   display: inline-block;
   font-family: "Inter";
 }
  
-.pricing1-text24 {
+.pricing1-text26 {
   display: inline-block;
-}
- 
-.pricing1-text25 {
   font-family: "Inter";
 }
  
@@ -163,21 +162,12 @@
   font-family: "Inter";
 }
  
-.pricing1-text28 {
-  display: inline-block;
-  font-family: "Inter";
-}
- 
-.pricing1-text29 {
-  display: inline-block;
-  font-family: "Inter";
+.pricing1root-class-name {
+  margin-bottom: var(--dl-layout-space-doubleunit);
 }
  
 @media(max-width: 479px) {
   .pricing1-max-width {
     gap: 24px;
-  }
-  .pricing1-button {
-    width: 100%;
   }
 }

@@ -6,14 +6,16 @@ import './pricing1.css'
 
 const Pricing1 = (props) => {
   return (
-    <div className="pricing1-pricing1 thq-section-padding">
+    <div
+      className={`pricing1-pricing1 thq-section-padding ${props.rootClassName} `}
+    >
       <div className="pricing1-max-width thq-section-max-width">
         <div className="pricing1-section-title">
           <div className="pricing1-content1">
             <h2 className="pricing1-text10 thq-heading-2">
               {props.heading1 ?? (
                 <Fragment>
-                  <span className="pricing1-text28">
+                  <span className="pricing1-text26">
                     Choose the Right Plan for Your Business
                   </span>
                 </Fragment>
@@ -22,8 +24,8 @@ const Pricing1 = (props) => {
             <p className="pricing1-text11 thq-body-large">
               {props.content2 ?? (
                 <Fragment>
-                  <span className="pricing1-text24">
-                    <span className="pricing1-text25">
+                  <span className="pricing1-text22">
+                    <span className="pricing1-text23">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </span>
                     <span>
@@ -44,14 +46,14 @@ const Pricing1 = (props) => {
             <p className="pricing1-text12 thq-body-large">
               {props.plan1 ?? (
                 <Fragment>
-                  <span className="pricing1-text19">Starter Plan</span>
+                  <span className="pricing1-text18">Starter Plan</span>
                 </Fragment>
               )}
             </p>
             <h3 className="pricing1-text13 thq-heading-3">
               {props.plan1Price ?? (
                 <Fragment>
-                  <span className="pricing1-text27">$29.99/month</span>
+                  <span className="pricing1-text25">$39.99/month</span>
                 </Fragment>
               )}
             </h3>
@@ -64,7 +66,7 @@ const Pricing1 = (props) => {
               <span className="thq-body-small">
                 {props.plan1Feature1 ?? (
                   <Fragment>
-                    <span className="pricing1-text20">
+                    <span className="pricing1-text19">
                       AI-powered product optimization
                     </span>
                   </Fragment>
@@ -78,7 +80,7 @@ const Pricing1 = (props) => {
               <span className="thq-body-small">
                 {props.plan1Feature2 ?? (
                   <Fragment>
-                    <span className="pricing1-text29">
+                    <span className="pricing1-text27">
                       Automated ad campaign management
                     </span>
                   </Fragment>
@@ -92,7 +94,7 @@ const Pricing1 = (props) => {
               <span className="thq-body-small">
                 {props.plan1Feature3 ?? (
                   <Fragment>
-                    <span className="pricing1-text23">
+                    <span className="pricing1-text21">
                       Data-driven insights and analytics
                     </span>
                   </Fragment>
@@ -106,7 +108,7 @@ const Pricing1 = (props) => {
               <span className="thq-body-small">
                 {props.plan1Feature4 ?? (
                   <Fragment>
-                    <span className="pricing1-text22">
+                    <span className="pricing1-text20">
                       Margin protection tools
                     </span>
                   </Fragment>
@@ -114,15 +116,6 @@ const Pricing1 = (props) => {
               </span>
             </div>
           </div>
-          <button className="pricing1-button thq-button-filled">
-            <span className="thq-body-small">
-              {props.plan1Action ?? (
-                <Fragment>
-                  <span className="pricing1-text21">Get Started</span>
-                </Fragment>
-              )}
-            </span>
-          </button>
         </div>
       </div>
     </div>
@@ -132,25 +125,25 @@ const Pricing1 = (props) => {
 Pricing1.defaultProps = {
   plan1: undefined,
   plan1Feature1: undefined,
-  plan1Action: undefined,
   plan1Feature4: undefined,
   plan1Feature3: undefined,
   content2: undefined,
   plan1Price: undefined,
   heading1: undefined,
   plan1Feature2: undefined,
+  rootClassName: '',
 }
 
 Pricing1.propTypes = {
   plan1: PropTypes.element,
   plan1Feature1: PropTypes.element,
-  plan1Action: PropTypes.element,
   plan1Feature4: PropTypes.element,
   plan1Feature3: PropTypes.element,
   content2: PropTypes.element,
   plan1Price: PropTypes.element,
   heading1: PropTypes.element,
   plan1Feature2: PropTypes.element,
+  rootClassName: PropTypes.string,
 }
 
 export default Pricing1

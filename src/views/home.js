@@ -307,41 +307,37 @@ const Home = (props) => {
             <span className="home-text34">$29.99/month</span>
           </Fragment>
         }
-        plan1Action={
-          <Fragment>
-            <span className="home-text35">Get Started</span>
-          </Fragment>
-        }
         plan1Feature1={
           <Fragment>
-            <span className="home-text36">AI-powered product optimization</span>
+            <span className="home-text35">AI-powered product optimization</span>
           </Fragment>
         }
         plan1Feature2={
           <Fragment>
-            <span className="home-text37">
+            <span className="home-text36">
               Automated ad campaign management
             </span>
           </Fragment>
         }
         plan1Feature3={
           <Fragment>
-            <span className="home-text38">
+            <span className="home-text37">
               Data-driven insights and analytics
             </span>
           </Fragment>
         }
         plan1Feature4={
           <Fragment>
-            <span className="home-text39">Margin protection tools</span>
+            <span className="home-text38">Margin protection tools</span>
           </Fragment>
         }
+        rootClassName="pricing1root-class-name"
       ></Pricing1>
       <div id="services" className="home-services">
         <div className="home-service-card1">
           <div className="home-card-content1">
-            <h3 className="home-text40 BigCard-Heading">Service name</h3>
-            <span className="home-text41 Card-Text">
+            <h3 className="home-text39 BigCard-Heading">Service name</h3>
+            <span className="home-text40 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -355,8 +351,8 @@ const Home = (props) => {
         </div>
         <div className="home-service-card2">
           <div className="home-card-content2">
-            <h3 className="home-text42 BigCard-Heading">Service name</h3>
-            <span className="home-text43 Card-Text">
+            <h3 className="home-text41 BigCard-Heading">Service name</h3>
+            <span className="home-text42 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -370,8 +366,8 @@ const Home = (props) => {
         </div>
         <div className="home-service-card3">
           <div className="home-card-content3">
-            <h3 className="home-text44 BigCard-Heading">Service name</h3>
-            <span className="home-text45 Card-Text">
+            <h3 className="home-text43 BigCard-Heading">Service name</h3>
+            <span className="home-text44 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -385,8 +381,8 @@ const Home = (props) => {
         </div>
         <div className="home-service-card4">
           <div className="home-card-content4">
-            <h3 className="home-text46 BigCard-Heading">Service name</h3>
-            <span className="home-text47 Card-Text">
+            <h3 className="home-text45 BigCard-Heading">Service name</h3>
+            <span className="home-text46 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -401,18 +397,18 @@ const Home = (props) => {
       </div>
       <div id="about-us" className="home-about-us">
         <div className="home-heading-container2">
-          <h2 className="home-text48 Section-Heading">
+          <h2 className="home-text47 Section-Heading">
             Why we built Seller Ascent
           </h2>
         </div>
         <div className="home-text-container">
-          <span className="home-text49">
+          <span className="home-text48">
             Seller Ascent was built for brand-registered sellers who want
             deeper, actionable insights from the Brand Analytics data they
             already have. Our mission is simple: help you win on Amazon with
             clear, data-driven decisions.                           
           </span>
-          <span className="home-text50">
+          <span className="home-text49">
             Amazon has become the world’s largest storefront, but behind its
             scale are millions of small sellers — the makers, families, and
             one-product brands who keep the marketplace alive. Most of them have
@@ -423,7 +419,7 @@ const Home = (props) => {
             and endless upkeep.                                               
               
           </span>
-          <span className="home-text51">
+          <span className="home-text50">
             {' '}
             We believe tools should serve the creator, not the other way around.
             That’s why Seller Ascent is priced simply, works seamlessly, and
@@ -438,19 +434,19 @@ const Home = (props) => {
       <Contact1
         email1={
           <Fragment>
-            <span className="home-text52">info@sellerascent.ai</span>
+            <span className="home-text51">info@sellerascent.ai</span>
           </Fragment>
         }
         address1={
           <Fragment>
-            <span className="home-text53">
+            <span className="home-text52">
               2104 38thn Avenue East, Seattle, WA 98112
             </span>
           </Fragment>
         }
         content1={
           <Fragment>
-            <span className="home-text54">
+            <span className="home-text53">
               Have questions, need support, or want to learn more about Seller
               Ascent?
             </span>
@@ -458,7 +454,7 @@ const Home = (props) => {
         }
         content3={
           <Fragment>
-            <span className="home-text55">
+            <span className="home-text54">
               Fill out the form below or reach out to us via mail.
             </span>
           </Fragment>
@@ -469,12 +465,12 @@ const Home = (props) => {
         <ContactForm1
           ctaBtn={
             <Fragment>
-              <span className="home-text56">SUBMIT</span>
+              <span className="home-text55">SUBMIT</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="home-text57 Section-Text">
+              <span className="home-text56 Section-Text">
                 Join the list to hear what’s next and get early access before
                 anyone else.
               </span>
@@ -482,7 +478,7 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text58">Stay in the loop</span>
+              <span className="home-text57">Stay in the loop</span>
             </Fragment>
           }
         ></ContactForm1>
@@ -491,74 +487,74 @@ const Home = (props) => {
       <Footer4
         link1={
           <Fragment>
-            <span className="home-text59">About Us</span>
+            <span className="home-text58">About Us</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="home-text60">Services</span>
+            <span className="home-text59">Services</span>
           </Fragment>
         }
         link3={
           <Fragment>
-            <span className="home-text61">Contact Us</span>
+            <span className="home-text60">Contact Us</span>
           </Fragment>
         }
         link4={
           <Fragment>
-            <span className="home-text62">FAQs</span>
+            <span className="home-text61">FAQs</span>
           </Fragment>
         }
         link5={
           <Fragment>
-            <span className="home-text63">Blog</span>
+            <span className="home-text62">Blog</span>
           </Fragment>
         }
         termsLink={
           <Fragment>
-            <span className="home-text64">Terms of Service</span>
+            <span className="home-text63">Terms of Service</span>
           </Fragment>
         }
         termsLink1={
           <Fragment>
-            <span className="home-text65">Terms of Service</span>
+            <span className="home-text64">Terms of Service</span>
           </Fragment>
         }
         cookiesLink={
           <Fragment>
-            <span className="home-text66">Cookies Policy</span>
+            <span className="home-text65">Cookies Policy</span>
           </Fragment>
         }
         privacyLink={
           <Fragment>
-            <span className="home-text67">Privacy Policy</span>
+            <span className="home-text66">Privacy Policy</span>
           </Fragment>
         }
         cookiesLink1={
           <Fragment>
-            <span className="home-text68">Cookies Policy</span>
+            <span className="home-text67">Cookies Policy</span>
           </Fragment>
         }
         privacyLink1={
           <Fragment>
-            <span className="home-text69">Privacy Policy</span>
+            <span className="home-text68">Privacy Policy</span>
           </Fragment>
         }
       ></Footer4>
       <Footer3
         termsLink={
           <Fragment>
-            <span className="home-text70">Terms of Service</span>
+            <span className="home-text69">Terms of Service</span>
           </Fragment>
         }
         cookiesLink={
           <Fragment>
-            <span className="home-text71">Data Sharing and IUsage</span>
+            <span className="home-text70">Data Sharing and Usage</span>
           </Fragment>
         }
         privacyLink={
           <Fragment>
-            <span className="home-text72">Privacy Policy</span>
+            <span className="home-text71">Privacy Policy</span>
           </Fragment>
         }
       ></Footer3>
