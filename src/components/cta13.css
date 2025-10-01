@@ -1,0 +1,74 @@
+.cta13-container {
+  gap: 48px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+}
+ 
+.cta13-max-width {
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.cta13-content {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.cta13-heading1 {
+  text-align: center;
+}
+ 
+.cta13-content1 {
+  text-align: center;
+}
+ 
+.cta13-actions {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.cta13-action1 {
+  text-align: center;
+}
+ 
+.cta13-action2 {
+  text-align: center;
+}
+ 
+.cta13-text1 {
+  display: inline-block;
+}
+ 
+.cta13-text2 {
+  display: inline-block;
+}
+ 
+.cta13-text3 {
+  display: inline-block;
+}
+ 
+.cta13-text4 {
+  display: inline-block;
+}
+ 
+@media(max-width: 479px) {
+  .cta13-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .cta13-button1 {
+    width: 100%;
+  }
+  .cta13-button2 {
+    width: 100%;
+  }
+}

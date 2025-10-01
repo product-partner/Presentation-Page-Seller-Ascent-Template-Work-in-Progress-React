@@ -2,21 +2,20 @@ import React, { Fragment } from 'react'
 
 import { Helmet } from 'react-helmet'
 
+import Features2 from '../components/features2'
+import Pricing1 from '../components/pricing1'
+import Contact1 from '../components/contact1'
 import ContactForm1 from '../components/contact-form1'
 import Footer4 from '../components/footer4'
+import Footer3 from '../components/footer3'
 import './home.css'
 
 const Home = (props) => {
   return (
     <div className="home-container1">
       <Helmet>
-        <title>
-          Presentation Page - Seller Ascent Template - Work in Progress
-        </title>
-        <meta
-          property="og:title"
-          content="Presentation Page - Seller Ascent Template - Work in Progress"
-        />
+        <title>Seller Ascent</title>
+        <meta property="og:title" content="Seller Ascent" />
       </Helmet>
       <div data-role="Header" className="home-navbar-container">
         <div className="home-navbar">
@@ -69,9 +68,7 @@ const Home = (props) => {
                 <a href="#features" className="home-link4 Anchor">
                   features
                 </a>
-                <a href="#services" className="home-link5 Anchor">
-                  services
-                </a>
+                <span className="home-link5 Anchor">services</span>
                 <a href="#about-us" className="home-link6 Anchor">
                   About Us
                 </a>
@@ -108,11 +105,12 @@ const Home = (props) => {
       </div>
       <div className="home-hero">
         <div className="home-hero-text-container">
-          <h1 className="home-heading1">Level the playing field.  </h1>
+          <h1 className="home-heading1">
+            Insights for Amazon Brand-Registered Sellers 
+          </h1>
           <span className="home-text11">
-            Seller Ascent simplifies Amazon’s complexity with AI that protects
-            your margins, optimizes your ads, and safeguards your
-            products.  Smart automation that makes small sellers mighty.
+            Unlock the power of your Brand Analytics data to improve visibility,
+            optimize keywords, and grow your brand on Amazon.
           </span>
           <a href="#contact-form-1-email" className="home-cta-btn3 button">
             GET EARLY ACCESS
@@ -191,11 +189,159 @@ const Home = (props) => {
           </div>
         </div>
       </div>
+      <Features2
+        slogan={
+          <Fragment>
+            <span className="home-text18">
+              Empowering Small Sellers with Smart Automation
+            </span>
+          </Fragment>
+        }
+        sectionTitle={
+          <Fragment>
+            <span className="home-text19">Key Features of Seller Ascent</span>
+          </Fragment>
+        }
+        feature1Title={
+          <Fragment>
+            <span className="home-text20">Search Query Performance</span>
+          </Fragment>
+        }
+        feature2Title={
+          <Fragment>
+            <span className="home-text21">Market Basket Analysis</span>
+          </Fragment>
+        }
+        feature3Title={
+          <Fragment>
+            <span className="home-text22">Item Comparison   </span>
+          </Fragment>
+        }
+        feature4Title={
+          <Fragment>
+            <span className="home-text23">Brand Share Insights</span>
+          </Fragment>
+        }
+        feature5Title={
+          <Fragment>
+            <span className="home-text24">Custom Dashboards &amp; Alerts</span>
+          </Fragment>
+        }
+        sectionDescription={
+          <Fragment>
+            <span className="home-text25">
+              Discover the powerful features of Seller Ascent
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+          </Fragment>
+        }
+        feature1Description={
+          <Fragment>
+            <span className="home-text26">
+              Discover which search terms drive visibility for your products and
+              competitors.
+            </span>
+          </Fragment>
+        }
+        feature2Description={
+          <Fragment>
+            <span className="home-text27">
+              Identify complementary products customers frequently buy together.
+            </span>
+          </Fragment>
+        }
+        feature3Description={
+          <Fragment>
+            <span className="home-text28">
+              Understand how shoppers choose between your products and
+              alternatives.
+            </span>
+          </Fragment>
+        }
+        feature4Description={
+          <Fragment>
+            <span className="home-text29">
+              Track your share of voice within Amazon search results.
+            </span>
+          </Fragment>
+        }
+        feature5Description={
+          <Fragment>
+            <span className="home-text30">
+              Monitor performance trends and receive automated alerts tailored
+              to your brand.
+            </span>
+          </Fragment>
+        }
+      ></Features2>
+      <Pricing1
+        plan1={
+          <Fragment>
+            <span className="home-text31">Starter Plan</span>
+          </Fragment>
+        }
+        content2={
+          <Fragment>
+            <span className="home-text32">
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+          </Fragment>
+        }
+        heading1={
+          <Fragment>
+            <span className="home-text33">
+              Choose the Right Plan for Your Business
+            </span>
+          </Fragment>
+        }
+        plan1Price={
+          <Fragment>
+            <span className="home-text34">$29.99/month</span>
+          </Fragment>
+        }
+        plan1Action={
+          <Fragment>
+            <span className="home-text35">Get Started</span>
+          </Fragment>
+        }
+        plan1Feature1={
+          <Fragment>
+            <span className="home-text36">AI-powered product optimization</span>
+          </Fragment>
+        }
+        plan1Feature2={
+          <Fragment>
+            <span className="home-text37">
+              Automated ad campaign management
+            </span>
+          </Fragment>
+        }
+        plan1Feature3={
+          <Fragment>
+            <span className="home-text38">
+              Data-driven insights and analytics
+            </span>
+          </Fragment>
+        }
+        plan1Feature4={
+          <Fragment>
+            <span className="home-text39">Margin protection tools</span>
+          </Fragment>
+        }
+      ></Pricing1>
       <div id="services" className="home-services">
         <div className="home-service-card1">
           <div className="home-card-content1">
-            <h3 className="home-text18 BigCard-Heading">Service name</h3>
-            <span className="home-text19 Card-Text">
+            <h3 className="home-text40 BigCard-Heading">Service name</h3>
+            <span className="home-text41 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -209,8 +355,8 @@ const Home = (props) => {
         </div>
         <div className="home-service-card2">
           <div className="home-card-content2">
-            <h3 className="home-text20 BigCard-Heading">Service name</h3>
-            <span className="home-text21 Card-Text">
+            <h3 className="home-text42 BigCard-Heading">Service name</h3>
+            <span className="home-text43 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -224,8 +370,8 @@ const Home = (props) => {
         </div>
         <div className="home-service-card3">
           <div className="home-card-content3">
-            <h3 className="home-text22 BigCard-Heading">Service name</h3>
-            <span className="home-text23 Card-Text">
+            <h3 className="home-text44 BigCard-Heading">Service name</h3>
+            <span className="home-text45 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -239,8 +385,8 @@ const Home = (props) => {
         </div>
         <div className="home-service-card4">
           <div className="home-card-content4">
-            <h3 className="home-text24 BigCard-Heading">Service name</h3>
-            <span className="home-text25 Card-Text">
+            <h3 className="home-text46 BigCard-Heading">Service name</h3>
+            <span className="home-text47 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
               <span
@@ -255,12 +401,18 @@ const Home = (props) => {
       </div>
       <div id="about-us" className="home-about-us">
         <div className="home-heading-container2">
-          <h2 className="home-text26 Section-Heading">
+          <h2 className="home-text48 Section-Heading">
             Why we built Seller Ascent
           </h2>
         </div>
         <div className="home-text-container">
-          <span className="home-text27">
+          <span className="home-text49">
+            Seller Ascent was built for brand-registered sellers who want
+            deeper, actionable insights from the Brand Analytics data they
+            already have. Our mission is simple: help you win on Amazon with
+            clear, data-driven decisions.                           
+          </span>
+          <span className="home-text50">
             Amazon has become the world’s largest storefront, but behind its
             scale are millions of small sellers — the makers, families, and
             one-product brands who keep the marketplace alive. Most of them have
@@ -268,14 +420,10 @@ const Home = (props) => {
             Amazon wasn’t built for them. Its systems demand constant learning,
             constant tuning, and constant defense. The very people bringing
             fresh ideas to market often get buried under dashboards, acronyms,
-            and endless upkeep.
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
+            and endless upkeep.                                               
+              
           </span>
-          <span className="home-text28">
+          <span className="home-text51">
             {' '}
             We believe tools should serve the creator, not the other way around.
             That’s why Seller Ascent is priced simply, works seamlessly, and
@@ -287,17 +435,46 @@ const Home = (props) => {
         </div>
         <button className="home-cta-btn4 button Anchor">START BUILDING</button>
       </div>
+      <Contact1
+        email1={
+          <Fragment>
+            <span className="home-text52">info@sellerascent.ai</span>
+          </Fragment>
+        }
+        address1={
+          <Fragment>
+            <span className="home-text53">
+              2104 38thn Avenue East, Seattle, WA 98112
+            </span>
+          </Fragment>
+        }
+        content1={
+          <Fragment>
+            <span className="home-text54">
+              Have questions, need support, or want to learn more about Seller
+              Ascent?
+            </span>
+          </Fragment>
+        }
+        content3={
+          <Fragment>
+            <span className="home-text55">
+              Fill out the form below or reach out to us via mail.
+            </span>
+          </Fragment>
+        }
+      ></Contact1>
       <div className="home-stay-in-the-loop">
         <div className="home-contact-us"></div>
         <ContactForm1
           ctaBtn={
             <Fragment>
-              <span className="home-text29">SUBMIT</span>
+              <span className="home-text56">SUBMIT</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="home-text30 Section-Text">
+              <span className="home-text57 Section-Text">
                 Join the list to hear what’s next and get early access before
                 anyone else.
               </span>
@@ -305,55 +482,86 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text31">Stay in the loop</span>
+              <span className="home-text58">Stay in the loop</span>
             </Fragment>
           }
         ></ContactForm1>
       </div>
       <div className="home-section-separator2"></div>
-      <div className="home-footer"></div>
       <Footer4
         link1={
           <Fragment>
-            <span className="home-text32">About Us</span>
+            <span className="home-text59">About Us</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="home-text33">Services</span>
+            <span className="home-text60">Services</span>
           </Fragment>
         }
         link3={
           <Fragment>
-            <span className="home-text34">Contact Us</span>
+            <span className="home-text61">Contact Us</span>
           </Fragment>
         }
         link4={
           <Fragment>
-            <span className="home-text35">FAQs</span>
+            <span className="home-text62">FAQs</span>
           </Fragment>
         }
         link5={
           <Fragment>
-            <span className="home-text36">Blog</span>
+            <span className="home-text63">Blog</span>
           </Fragment>
         }
         termsLink={
           <Fragment>
-            <span className="home-text37">Terms of Service</span>
+            <span className="home-text64">Terms of Service</span>
+          </Fragment>
+        }
+        termsLink1={
+          <Fragment>
+            <span className="home-text65">Terms of Service</span>
           </Fragment>
         }
         cookiesLink={
           <Fragment>
-            <span className="home-text38">Cookies Policy</span>
+            <span className="home-text66">Cookies Policy</span>
           </Fragment>
         }
         privacyLink={
           <Fragment>
-            <span className="home-text39">Privacy Policy</span>
+            <span className="home-text67">Privacy Policy</span>
+          </Fragment>
+        }
+        cookiesLink1={
+          <Fragment>
+            <span className="home-text68">Cookies Policy</span>
+          </Fragment>
+        }
+        privacyLink1={
+          <Fragment>
+            <span className="home-text69">Privacy Policy</span>
           </Fragment>
         }
       ></Footer4>
+      <Footer3
+        termsLink={
+          <Fragment>
+            <span className="home-text70">Terms of Service</span>
+          </Fragment>
+        }
+        cookiesLink={
+          <Fragment>
+            <span className="home-text71">Data Sharing and IUsage</span>
+          </Fragment>
+        }
+        privacyLink={
+          <Fragment>
+            <span className="home-text72">Privacy Policy</span>
+          </Fragment>
+        }
+      ></Footer3>
     </div>
   )
 }

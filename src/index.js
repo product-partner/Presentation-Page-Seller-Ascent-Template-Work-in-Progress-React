@@ -8,6 +8,9 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
+import DataSharingDataUsage from './views/data-sharing-data-usage'
+import PrivacyPolicy from './views/privacy-policy'
+import TermsOfService from './views/terms-of-service'
 import Home from './views/home'
 import NotFound from './views/not-found'
 
@@ -15,6 +18,13 @@ const App = () => {
   return (
     <Router>
       <Switch>
+        <Route
+          component={DataSharingDataUsage}
+          exact
+          path="/data-sharing-data-usage"
+        />
+        <Route component={PrivacyPolicy} exact path="/privacy-policy" />
+        <Route component={TermsOfService} exact path="/terms-of-service" />
         <Route component={Home} exact path="/" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />

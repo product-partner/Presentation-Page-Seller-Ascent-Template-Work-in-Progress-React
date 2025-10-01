@@ -1,0 +1,183 @@
+.pricing1-pricing1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.pricing1-max-width {
+  gap: 48px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.pricing1-section-title {
+  gap: var(--dl-layout-space-unit);
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.pricing1-content1 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.pricing1-text10 {
+  text-align: center;
+}
+ 
+.pricing1-text11 {
+  text-align: center;
+}
+ 
+.pricing1-content2 {
+  gap: 32px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  max-width: 560px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: column;
+}
+ 
+.pricing1-price {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.pricing1-text12 {
+  font-style: normal;
+  font-weight: 600;
+}
+ 
+.pricing1-text13 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  font-size: 48px;
+}
+ 
+.pricing1-list {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.pricing1-list-item1 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.pricing1-list-item2 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.pricing1-list-item3 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.pricing1-list-item4 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.pricing1-button {
+  width: 100%;
+  font-size: 18px;
+  font-family: "Inter";
+  background-color: #01653d;
+}
+ 
+.pricing1-text19 {
+  display: inline-block;
+}
+ 
+.pricing1-text20 {
+  display: inline-block;
+  font-family: "Inter";
+}
+ 
+.pricing1-text21 {
+  display: inline-block;
+  font-size: 26px;
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 700;
+  text-transform: capitalize;
+}
+ 
+.pricing1-text22 {
+  display: inline-block;
+  font-family: "Inter";
+}
+ 
+.pricing1-text23 {
+  display: inline-block;
+  font-family: "Inter";
+}
+ 
+.pricing1-text24 {
+  display: inline-block;
+}
+ 
+.pricing1-text25 {
+  font-family: "Inter";
+}
+ 
+.pricing1-text27 {
+  display: inline-block;
+  font-family: "Inter";
+}
+ 
+.pricing1-text28 {
+  display: inline-block;
+  font-family: "Inter";
+}
+ 
+.pricing1-text29 {
+  display: inline-block;
+  font-family: "Inter";
+}
+ 
+@media(max-width: 479px) {
+  .pricing1-max-width {
+    gap: 24px;
+  }
+  .pricing1-button {
+    width: 100%;
+  }
+}

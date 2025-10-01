@@ -1,0 +1,74 @@
+.cta11-container {
+  gap: 48px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+}
+ 
+.cta11-max-width {
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.cta11-content {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.cta11-heading1 {
+  text-align: center;
+}
+ 
+.cta11-content1 {
+  text-align: center;
+}
+ 
+.cta11-actions {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.cta11-action1 {
+  text-align: center;
+}
+ 
+.cta11-action2 {
+  text-align: center;
+}
+ 
+.cta11-text1 {
+  display: inline-block;
+}
+ 
+.cta11-text2 {
+  display: inline-block;
+}
+ 
+.cta11-text3 {
+  display: inline-block;
+}
+ 
+.cta11-text4 {
+  display: inline-block;
+}
+ 
+@media(max-width: 479px) {
+  .cta11-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .cta11-button1 {
+    width: 100%;
+  }
+  .cta11-button2 {
+    width: 100%;
+  }
+}

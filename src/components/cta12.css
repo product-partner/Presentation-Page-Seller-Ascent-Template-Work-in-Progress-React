@@ -1,0 +1,74 @@
+.cta12-container {
+  gap: 48px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+}
+ 
+.cta12-max-width {
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.cta12-content {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.cta12-heading1 {
+  text-align: center;
+}
+ 
+.cta12-content1 {
+  text-align: center;
+}
+ 
+.cta12-actions {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.cta12-action1 {
+  text-align: center;
+}
+ 
+.cta12-action2 {
+  text-align: center;
+}
+ 
+.cta12-text1 {
+  display: inline-block;
+}
+ 
+.cta12-text2 {
+  display: inline-block;
+}
+ 
+.cta12-text3 {
+  display: inline-block;
+}
+ 
+.cta12-text4 {
+  display: inline-block;
+}
+ 
+@media(max-width: 479px) {
+  .cta12-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .cta12-button1 {
+    width: 100%;
+  }
+  .cta12-button2 {
+    width: 100%;
+  }
+}
